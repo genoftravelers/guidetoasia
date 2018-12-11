@@ -1,0 +1,104 @@
+html,body{
+  height: 100%;
+  background-color: #4080bf;
+  font-family: 'Raleway', sans-serif;
+   
+}
+
+body{
+  padding-top: 16px;
+  box-sizing: border-box;
+  color: gold;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: gold;
+}
+
+nav > a{
+  padding: 16px 0px 16px 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+nav > a:hover{
+  text-decoration: underline;
+}
+
+nav > a:visited{
+  text-decoration: none;
+  color: gold;
+}
+
+logo img{
+  max-width: 300px;
+  border: solid 1px gold;
+}
+
+img{
+  width: 100%;
+}
+
+p{
+  font-size:16px;
+  line-height: 1.5;
+  padding-bottom: 8px;
+  border-bottom: solid 1px gold; 
+}
+
+@media only screen and (min-width:1100px){
+
+  body{
+    margin:0px 32px 0px 32px;
+  }
+    
+  nav{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+  }
+  
+  main{
+    margin-top: 16px;
+  }
+  
+  section{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px gold;
+    flex: 1;
+  }
+  
+  img{
+    max-height: 400px;
+  }
+  
+  p{
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+  }
+ .dance{
+   order:2;
+ }
+ .dance2{
+   order:1;
+ }
+ .prayer{
+   order:2;
+ }
+ .prayer2{
+   order:1;
+ }
+ .newyear{
+   order:2;
+ }
+ .newyear{
+   order:1;
+ }
+}
